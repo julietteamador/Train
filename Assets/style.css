@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#card{
+    background-color: brown;
+    color: white;
+    margin: 2%;
+}
