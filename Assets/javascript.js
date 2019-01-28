@@ -42,3 +42,9 @@ database.ref('trains').on('value', function(snapshot){
         $('#tbody').append(`<tr><td>${ele.name}</td><td>${ele.destination}</td><td>${ele.frequency}</td><td>${ele.minutes}</td></tr>`)
     })
 })
+
+var randomDate = "02/20/1999";
+var randomFormat = "MM/DD/YYYY";
+var convertedDate = moment(randomDate, randomFormat);
+
+console.log(convertedDate.format("MM/DD/YYYY"));
