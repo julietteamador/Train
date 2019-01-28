@@ -43,6 +43,8 @@ database.ref('trains').on('value', function (snapshot) {
     })
 })
 
+
+var trainNext = $("#next-table").val().trim();
 var tFrequency = 3;
 var firstTime = "04:30";
 var firstTimeConverted = moment(firstTime, "HH:mm").subtract(1, "years");
